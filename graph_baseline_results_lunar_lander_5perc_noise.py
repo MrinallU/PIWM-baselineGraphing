@@ -17,7 +17,9 @@ GOKU_CARTPOLE_WEIGHTS_PATH = "./goku_lunar_weights_5_noise.pth"
 VID2PARA_CARTPOLE_WEIGHTS_PATH = "./v2p_lunar_weights_5_noise.pth"
 DVBF_CARTPOLE_WEIGHTS_PATH = "./dvbf_lunar_weights_5_noise.pth"
 SINDYC_CARTPOLE_WEIGHTS_PATH = "./sindyc_lunar_weights_5_noise.pth"
-
+CONTROLLERS = "./controllers"
+CARTPOLE_PATH = "./cart-pole"
+LUNAR_PATH = "./lunar"
 
 # ========= Configuration =========
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

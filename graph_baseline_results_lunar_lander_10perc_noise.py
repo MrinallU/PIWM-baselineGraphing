@@ -19,6 +19,7 @@ DVBF_CARTPOLE_WEIGHTS_PATH = "./dvbf_lunar_weights_10_noise.pth"
 SINDYC_CARTPOLE_WEIGHTS_PATH = "./sindyc_lunar_weights_10_noise.pth"
 CARTPOLE_PATH = "./cart-pole"
 LUNAR_PATH = "./lunar"
+CONTROLLERS = "./controllers"
 
 # ========= Configuration =========
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
